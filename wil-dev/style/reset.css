@@ -1,0 +1,47 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    line-height: 1.15; /* Melhorar a legibilidade */
+    -webkit-text-size-adjust: 100%; /* Impedir o ajuste de tamanho de texto em dispositivos móveis */
+}
+
+body {
+    font-family: sans-serif; /* Defina uma fonte padrão */
+    font-size: 16px; /* Tamanho de fonte padrão */
+    line-height: 1.5; /* Espaçamento entre linhas */
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: normal; /* Remover o peso de fonte padrão */
+}
+
+ul, ol {
+    list-style: none; /* Remover marcadores de listas */
+}
+
+a {
+    text-decoration: none; /* Remover sublinhado de links */
+    color: inherit; /* Herança de cor */
+}
+
+img {
+    max-width: 100%; /* Tornar imagens responsivas */
+    height: auto; /* Manter a proporção */
+}
+
+table {
+    border-collapse: collapse; /* Colapsar bordas de tabelas */
+    width: 100%; /* Tabelas ocupam 100% da largura */
+}
+
+button {
+    border: none; /* Remover borda padrão de botões */
+    background: none; /* Remover fundo padrão */
+    font: inherit; /* Herança de fonte */
+    cursor: pointer; /* Mudar o cursor para pointer */
+}

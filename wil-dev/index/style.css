@@ -1,0 +1,65 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(to right, #e0eafc, #cfdef3);
+    color: #333;
+    padding: 20px;
+  }
+  
+  /* Container */
+  .content {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffffde;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  .content h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 2.5em;
+    color: #005f8d;
+  }
+  
+  /* Certificado wrapper */
+  .content div {
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  /* Imagem do certificado */
+  .content img {
+    max-width: 100%;
+    height: auto;
+    border: 4px solid #0077b5;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Rodapé */
+  footer {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 0.9em;
+    color: #444;
+  }
+  
+  /* Responsividade */
+  @media (max-width: 768px) {
+    .content h1 {
+      font-size: 2em;
+    }
+  
+    .content {
+      padding: 10px;
+    }
+  }
